@@ -152,3 +152,128 @@ font-family: "Slackside One", cursive;
     border-radius: 0.7rem;
     height: 2.5rem;
 }
+/* form */
+/* Product Form */
+#product-form {
+    width: 400px;
+    padding: 28px;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.12);
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    z-index: 1000;
+}
+
+/* Hide form */
+#product-form.hidee {
+    display: none;
+}
+
+/* Labels */
+#product-form label {
+    margin-top: 10px;
+
+    font-size: 14px;
+    font-weight: 600;
+    color: #374151;
+}
+
+/* Inputs */
+#product-form input {
+    width: 100%;
+    height: 44px;
+    padding: 0 13px;
+
+    box-sizing: border-box;
+
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+
+    background: #f9fafb;
+    color: #111827;
+
+    font-size: 14px;
+
+    outline: none;
+
+    transition: 0.2s ease;
+}
+
+/* Input focus */
+#product-form input:focus {
+    border-color: #16a34a;
+    background: #ffffff;
+    box-shadow: 0 0 0 3px rgba(22, 163, 74, 0.12);
+}
+
+/* Placeholder */
+#product-form input::placeholder {
+    color: #9ca3af;
+}
+
+/* Buttons container-like spacing */
+#product-form button {
+    height: 44px;
+    margin-top: 12px;
+
+    border: none;
+    border-radius: 8px;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: all 0.2s ease;
+}
+
+/* Add Product button */
+#addproducts {
+    background: #16a34a;
+    color: white;
+}
+
+#addproducts:hover {
+    background: #15803d;
+    transform: translateY(-1px);
+}
+
+#addproducts:active {
+    transform: translateY(0);
+}
+
+/* Close button */
+#closebtn {
+    margin-top: 0 !important;
+
+    background: #f3f4f6;
+    color: #374151;
+
+    border: 1px solid #e5e7eb !important;
+}
+
+#closebtn:hover {
+    background: #fee2e2;
+    color: #dc2626;
+}
+
+#add-items{
+    border-radius: 7px;
+    height: 2rem;
+    width: 5rem;
+    outline: none;
+    border: none;
+    margin: 1rem;
+    background-color: #16a34a;
+    color: white;
+}
