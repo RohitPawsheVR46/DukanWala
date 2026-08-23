@@ -120,3 +120,35 @@ body{
     text-align: center;
     padding: 2rem;
 }
+#category-name{
+font-family: "Slackside One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+    padding: 10px;   
+}
+#itemss{
+    display: flex;
+    flex-wrap: wrap;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+   margin: 2rem;
+    height: 40vh;
+    width: 12%;
+    background-color: rgb(198, 223, 244);
+    border-radius: 15px;
+    padding: 0.5rem;
+}
+.item img{
+     height: 100%;
+    width: 100%;
+}
+.item button{
+    border: none;
+    background-color: #2E7D32;
+    color: white;
+    border-radius: 0.7rem;
+    height: 2.5rem;
+}
