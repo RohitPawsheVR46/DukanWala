@@ -1,14 +1,18 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.slackside-one-regular {
-  font-family: "Slackside One", cursive;
-  font-weight: 400;
-  font-style: normal;
+body{
+    overflow-x: hidden;
 }
 
-#top{
+.slackside-one-regular {
+    font-family: "Slackside One", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#top {
     width: 100%;
     height: 10vh;
     background-color: red;
@@ -16,11 +20,12 @@
     justify-content: center;
     align-items: center;
     font-family: "Slackside One", cursive;
-  /* font-weight: 400; */
-  font-size: 3rem;
-  font-style: normal;
+    /* font-weight: 400; */
+    font-size: 3rem;
+    font-style: normal;
 }
-.navbar{
+
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -30,28 +35,88 @@
     border: 2px solid lightgray;
     padding: 0.2rem;
 }
-#searchbar input{
+
+#searchbar input {
     border-radius: 7px;
     outline: none;
     border: 1px solid gray;
-    padding: 0.2rem;  
+    padding: 0.2rem;
 }
-#Explore-sec{
+
+#Explore-sec {
     margin: 0.5rem;
+    font-family: "Slackside One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
 }
-#grocery{
+
+.section{
     display: flex;
     flex-wrap: wrap;
     /* justify-content: space-around; */
 }
-.items img{
+
+.items img {
     height: 100%;
     width: 100%;
 }
-.items{
+
+.items {
     margin: 2rem;
     height: 26vh;
     width: 12%;
     background-color: aliceblue;
     border-radius: 15px;
+}
+.h2{
+    margin: 0.5rem 0.5rem 0rem 0.5rem;
+    border-top: 2px solid lightgray;
+    padding: 10px 10px 0px 10px;
+    font-family: "Slackside One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+}
+#our-section{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color:  #F8EDEB;
+    gap: 5rem;
+    padding: 2rem;
+    margin: 2rem 0rem 2rem 0rem; font-family: "Slackside One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+}
+#footer{
+    height: 20vh;
+    width: 100%;
+}
+#footer a{
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+#upper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+#customer, #company{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+#customer, #company p{
+ /* font-family: "Slackside One", cursive; */
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;   
+}
+#lower{
+    text-align: center;
+    padding: 2rem;
 }
