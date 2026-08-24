@@ -153,6 +153,12 @@ font-family: "Slackside One", cursive;
     height: 2.5rem;
 }
 /* form */
+
+/* Hide form */
+#product-form.hidee {
+    display: none;
+}
+
 /* Product Form */
 #product-form {
     width: 400px;
@@ -174,10 +180,6 @@ font-family: "Slackside One", cursive;
     z-index: 1000;
 }
 
-/* Hide form */
-#product-form.hidee {
-    display: none;
-}
 
 /* Labels */
 #product-form label {
